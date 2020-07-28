@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- font-family: 'Barlow', sans-serif; -->
+    <title>Deimos y Fobos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        
+        <header id="" class="flex">
+            <div id="home"><a href="index.html"><img src="img/logo1.png" alt="home" id="logo"></a></div>
+    
+            <div id="menu">
+    
+                <nav id="menunav" class="flex">
+                    <a href="aboutme.html"><p class="clickeado">INICIO</p></a> |
+                    <a href="mywork.html"><p>RADIO</p></a> |
+                    <a href="store.html"><p>NOTICIAS</p></a> |
+                    <ul class="flex" id="menuredes">
+                        <li><a href="http://www.behance.com/MiliGaleano"><img src="img/ig.png" alt="instagram" class="iconos"></a></li>
+                        <li><a href="http://www.behance.com/MiliGaleano"><img src="img/twitter.png" alt="twitter" class="iconos"></a></li>
+                        <li><a href="http://www.behance.com/MiliGaleano"><img src="img/spoti.png" alt="spotify" class="iconos"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+            <div id="imgfondo"></div>
+            <div id="imgfondo2"></div>
+            <div id="imgfondo3"></div>
+
+            <div id="videovelas">
+                <video id="video1">
+                    <source src="img/velas.mp4" type="video/mp4">
+                </video>
+                <img src="img/play.png" alt="play" id="botonplay" onclick="playvideo();">
+                <img src="img/pause.png" alt="pause" id="botonpause" onclick="pausevideo();">
+                <img src="img/muted.png" alt="pause" id="botonmuted" onclick="mutearvideo();" class="volumen">
+                <img src="img/unmuted.png" alt="pause" id="botonunmuted" onclick="unmutearvideo();" class="volumen">
+            </div>
+
+            <div id="documental">
+                
+                <div id="variastexturas">
+                    <div id="fondogris"></div>
+                    <img src="img/textura1.jpg" alt="textura1" id="textura1">
+                    <img src="img/textura2.jpg" alt="textura2" id="textura2">
+                    <img src="img/marco2.png" alt="textura3" id="textura3">
+                </div>
+                <div id="fechadocu">
+                    <img src="img/gif-fecha.gif" alt="giffecha" id="giffecha">
+                    <h1 id="nuevatemp" class="titulosdocu">NUEVA TEMPORADA</h1>
+                    <h2 id="nuevatemp2" class="titulosdocu">EUROPA  |</h2>
+                    <img src="img/marco2.png" alt="textura3" id="marcofecha">
+                </div>
+                <div id="videodocu">
+                    <video id="video2" poster="img/poster2.jpg">
+                        <source src="img/juegocom.mp4" type="video/mp4">
+                    </video>
+                    <div id="botonesdocu">
+                        <img src="img/play2.png" alt="play" id="botonplay2" onclick="playvideo2();">
+                        <img src="img/pause.png" alt="pause" id="botonpause2" onclick="pausevideo2();">
+                    </div>
+                </div>
+                <div id="descripciondocu">
+                    <p id="pdocumental">Viajamos a diferentes partes del mundo para conocer las mejores historias de terror</p>
+                    <h3 class="documentalh3">SERIE</h3>
+                    <h3 class="documentalh3 abajo">DOCUMENTAL</h3>
+                    <h4 id="documentalh4">TRAILER  |</h4>
+                </div>
+
+            </div>
+
+
+        <footer></footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
