@@ -104,7 +104,7 @@
   #imgfondo{
     position: absolute;
     width: 100vw;
-    height: 2000px;
+    height: 2500px;
     background-image: url(img/fondo3.jpg);
     background-size: 100vw;
     opacity: 0%;
@@ -125,7 +125,7 @@
   #imgfondo2 {
       position: absolute;
       width: 100vw;
-      height: 2000px;
+      height: 2500px;
       background-image: url(img/fondo.jpg);
       background-size: 100vw;
       opacity: 10%;
@@ -157,7 +157,7 @@
   #imgfondo3 {
     position: absolute;
     width: 100vw;
-    height: 2000px;
+    height: 2500px;
     background-image: url(img/fondo5.jpg);
     background-size: 100vw;
     opacity: 0%;
@@ -415,4 +415,186 @@
   left: 68.1vw;
   font-weight: 300;
   font-size: 0.7vw;
+}
+
+
+
+
+
+#celular{
+  position: absolute;
+  margin-top: 110vw;
+}
+#fondoblanco{
+  width: 100vw;
+  height: 42vw;
+  background-color: white;
+}
+#muchastexturas{
+  position: absolute;
+  top: 8.9vw;
+  margin-left: 22vw;
+}
+#fototexturas{
+  width: 60vw;
+  mix-blend-mode: multiply;
+}
+#rectamarillo{
+  height: 20vw;
+}
+#fondoamarillo{
+  width: 60vw;
+  position: absolute;
+  top: 30.6vw;
+  left: 3vw;
+}
+#marquitoabajo{
+  width: 60vw;
+  position: absolute;
+  top: 23vw;
+  left: 14vw;
+  mix-blend-mode: multiply;
+}
+.buenosaires{
+  width: 20vw;
+  position: absolute;
+  top: 42.5vw;
+  left: 42.5vw;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 2.3vw;
+  color: rgba(255, 255, 0, 0.883);
+}
+.buenosaires.negro{
+  color: black;
+  top: 42.6vw;
+}
+#realidadvirtual{
+  width: 40vw;
+  position: absolute;
+  top: 48vw;
+  left: 22vw;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+  font-size: 2.7vw;
+  color: black;
+}
+#pjuego{
+  width: 37vw;
+  position: absolute;
+  top: 51.5vw;
+  left: 22vw;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  font-size: 1vw;
+  color: black;
+}
+
+#pngcelular{
+  width: 60vw;
+  position: absolute;
+  top: 5.8vw;
+  left: -0.4vw;
+}
+#nombrejuego{
+  width: 60vw;
+  position: absolute;
+  top: 5.5vw;
+  left: -0.4vw;
+  opacity: 100%;
+  animation-name: botonplay2;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+#celupng{
+  height: 0vw;
+}
+#botonesdescargalo{
+  width: 10vw;
+  position: absolute;
+  top: -18.5vw;
+  left: 71.9vw;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  color: black;
+}
+#android{
+  width: 8vw;
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+}
+#aandroid{
+  width: 8vw;
+  height: 3vw;
+  position: absolute;
+  top: -17vw;
+  left: 71vw;
+  z-index: 90;
+}
+#apple{
+  width: 8.5vw;
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+}
+#aapple{
+  width: 8.5vw;
+  height: 3vw;
+  position: absolute;
+  top: -14vw;
+  left: 71vw;
+  z-index: 91;
+}
+
+#descargarbotones{
+    height: 0vw;
+    position: absolute;
+}
+
+@media (max-width: 1150px) { 
+  #imgfondo{
+    height: 2000px;
+ }
+ #imgfondo2{
+  height: 2000px;
+}
+#imgfondo3{
+  height: 2000px;
+}
+}
+@media (max-width: 900px) { 
+  #imgfondo{
+    height: 1500px;
+ }
+ #imgfondo2{
+  height: 1500px;
+}
+#imgfondo3{
+  height: 1500px;
+}
+}
+@media (max-width: 650px) { 
+  #imgfondo{
+    height: 1000px;
+ }
+ #imgfondo2{
+  height: 1000px;
+}
+#imgfondo3{
+  height: 1000px;
+}
+}
+@media (max-width: 450px) { 
+  #imgfondo{
+    height: 700px;
+ }
+ #imgfondo2{
+  height: 700px;
+}
+#imgfondo3{
+  height: 700px;
+}
 }

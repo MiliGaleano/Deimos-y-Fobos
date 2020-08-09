@@ -46,6 +46,7 @@ function chequearsitermino(){
 var video2 = document.getElementById("video2");
 var botonplay2 = document.getElementById("botonplay2");
 var botonpause2 = document.getElementById("botonpause2");
+var trailer = document.getElementById("documentalh4");
 
 function playvideo2(){
     pausevideo();
@@ -53,6 +54,7 @@ function playvideo2(){
     botonplay2.style.display= "none";
     botonpause2.style.display= "block";
     setTimeout(chequearsitermino2, 34000);
+    trailer.style.display= "none";
 }
 
 function pausevideo2(){
@@ -68,5 +70,6 @@ function chequearsitermino2(){
         botonplay2.style.display= "block";
         botonpause2.style.display= "none";
         video2.load();
+        trailer.style.display= "block";
     }
 }
