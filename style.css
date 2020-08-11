@@ -49,6 +49,7 @@
     justify-content: flex-end;
     color: white;
     font-size: 1.5vw;
+    /* -webkit-text-stroke: 0.3px black; */
   }
   
   #menunav p{
@@ -266,18 +267,18 @@
     text-align: right;
 }
 #marcofecha{
-  position: relative;
-  top: -12.5vw;
+  position: absolute;
+  top: -3.5vw;
   width: 14vw;
-  margin-left: 27.5vw;
+  margin-left: 28vw;
   mix-blend-mode: multiply;
   opacity: 40%;
 }
 
 
 #fechadocu{
-  position: relative;
-  top: -88.8vw;
+  position: absolute;
+  top: 1vw;
   /* left: 5.5vw; */
 }
 
@@ -288,25 +289,24 @@
   background-color: rgb(87, 87, 87);
 }
 #textura1 {
-  position: relative;
-  top: -19vw;
+  position: absolute;
+  top: 3vw;
   width: 37vw;
-  /* height: 17vw; */
   margin-left: 26vw;
   opacity: 90%;
   mix-blend-mode: multiply;
 }
 #textura2 {
-  position: relative;
-  top: -23vw;
+  position: absolute;
+  top: 18.2vw;
   width: 40vw;
   margin-left: 12vw;
   opacity: 90%;
   mix-blend-mode: multiply;
 }
 #textura3 {
-  position: relative;
-  top: -49vw;
+  position: absolute;
+  top: -1vw;
   width: 40vw;
   margin-left: 37vw;
   mix-blend-mode: multiply;
@@ -321,7 +321,7 @@
   z-index: 4;
   width: 63vw;
   height: auto;
-  bottom: 89vw;
+  top: 6vw;
   left: 37vw;
 }
 
@@ -333,9 +333,9 @@
 }
 
 #botonesdocu{
-  position: relative;
+  position: absolute;
   left:-1vw;
-  top: -4vw;
+  top: 10.5vw;
   width: 4vw;
   height: 3vw;
   background-color: rgba(0, 0, 0, 0.683);
@@ -354,7 +354,7 @@
 }
 
 #botonplay2 {
-  position: relative;
+  position: absolute;
   left:1.1vw; 
   top:0.5vw;
   width: 2vw;
@@ -366,7 +366,7 @@
 }
 
 #botonpause2 {
-  position: relative;
+  position: absolute;
   left:1vw; 
   top:0.5vw;
   /* left:87vw; */
